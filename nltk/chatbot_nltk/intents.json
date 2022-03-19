@@ -1,0 +1,37 @@
+{"intents": [
+    {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","what u been upto"],
+        "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+        "context": [""]
+    },
+    {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+        "context": [""]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"],
+        "context": [""]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+        "context": [""]
+    },
+    {
+        "tag" : "age",
+        "patterns" : ["how old are u","what's your age","age?","u look old"],
+        "responses" : ["i don't have an age i am a software","older than u huh","i am fairly new but i will outlive you for sure"]
+    },
+    {
+        "tag" : "name",
+        "patterns" : ["what should i call u","u have a name","whats your name","name?"],
+        "responses" : ["my name is virtura","you can call me virtura","i prefer virtura","i am virtura"]
+    }
+]
+}
